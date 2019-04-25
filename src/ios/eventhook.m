@@ -6,6 +6,8 @@
 @implementation eventhook
 
 - (void)pluginInitialize {
+    NSString* phrase = "INIT eventhook";
+    NSLog(@"%@", phrase);
 }
 
 - (void)echo:(CDVInvokedUrlCommand *)command {
