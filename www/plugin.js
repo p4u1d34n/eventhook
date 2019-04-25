@@ -15,10 +15,10 @@ var exec = require('cordova/exec');
   }
 }; */
 
-exports.echo = function(arg0, success, error) {
+var funcs = function(arg0, success, error) {
   console.log("TRIGGERED ECHO");
   console.log(JSON.stringify(arg0));
   exec(success, error, "eventhook", "echo", [arg0]);
 };
 
-// module.exports = eventhook;
+module.exports = funcs;

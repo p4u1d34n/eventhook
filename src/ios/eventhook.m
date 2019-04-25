@@ -2,6 +2,7 @@
 
 #import <Cordova/CDVAvailability.h>
 
+
 @implementation eventhook
 
 - (void)pluginInitialize {

@@ -1,7 +1,7 @@
 #import <Cordova/CDVPlugin.h>
 
 @interface eventhook : CDVPlugin {
-    
+
 }
 
 // The hooks for our plugin commands
