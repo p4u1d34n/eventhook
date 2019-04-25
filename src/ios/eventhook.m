@@ -2,7 +2,6 @@
 
 #import <Cordova/CDVAvailability.h>
 
-
 @implementation eventhook
 
 - (void)pluginInitialize {
@@ -13,7 +12,7 @@
   NSLog(@"%@", phrase);
 }
 
-- (void)newEvent:(CDVInvokedUrlCommand *)command {
+/* - (void)newEvent:(CDVInvokedUrlCommand *)command {
   NSString* a = [command.arguments objectAtIndex:0];
   NSString* b = [command.arguments objectAtIndex:1];
   NSString* c = [command.arguments objectAtIndex:2];
@@ -35,7 +34,7 @@
 
   CDVPluginResult *result = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:iso8601String];
   [self.commandDelegate sendPluginResult:result callbackId:command.callbackId];
-}
+} */
 
 
 
