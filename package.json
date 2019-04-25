@@ -1,0 +1,12 @@
+{
+  "name": "eventhook",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "eventhook",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "description": "eventhook Cordova Plugin"
+}
