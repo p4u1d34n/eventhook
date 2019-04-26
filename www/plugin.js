@@ -17,7 +17,7 @@ var exec = require('cordova/exec');
 
 var funcs = function(arg0, success, error) {
   console.log("TRIGGERED ECHO");
-  console.log(JSON.stringify(arg0));
+  console.log(JSON.stringify(arg0) + " output");
   exec(success, error, "eventhook", "echo", [arg0]);
 };
 
